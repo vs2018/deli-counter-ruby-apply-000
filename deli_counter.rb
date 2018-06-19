@@ -9,11 +9,13 @@ def line(katz_deli)
   return puts string
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli << name
-  length = katz_deli.size
-  puts "Welcome, #{name}. You are number #{length} in line."
-end
+# def take_a_number(katz_deli, name)
+#   katz_deli << name
+#   length = katz_deli.size
+#   puts "Welcome, #{name}. You are number #{length} in line."
+# end
+
+
 
 def now_serving(katz_deli)
   puts "There is nobody waiting to be served!" if katz_deli.size == 0
