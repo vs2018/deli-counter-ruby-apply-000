@@ -9,12 +9,15 @@ def line(katz_deli)
   return puts string
 end
 
+counter = 0
+
 def take_a_number(name)
-  counter = 0 
+
+  counter += 1
   
   puts "Welcome. You are number #{counter} in line."
   
-  counter += 1
+
 end
 
 
@@ -23,3 +26,8 @@ def now_serving(katz_deli)
   puts "There is nobody waiting to be served!" if katz_deli.size == 0
   puts "Currently serving #{katz_deli.shift}." if katz_deli.size > 0
 end
+
+
+take_a_number("Laura")
+
+take_a_number("Vishal")
