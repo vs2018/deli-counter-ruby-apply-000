@@ -10,9 +10,7 @@ def line(katz_deli)
 end
 
 def take_a_number(name)
-  counter = nil 
-  
-  
+  counter = 0 
   
   puts "Welcome. You are number #{counter} in line."
   
